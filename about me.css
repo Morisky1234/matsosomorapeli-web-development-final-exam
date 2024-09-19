@@ -1,0 +1,42 @@
+/* General Styles */
+body {
+    background-color: lightgray;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header Styles */
+header {
+    padding-top: 30px;
+    min-height: 70px;
+    text-align: center;
+    border-bottom: #0779e4 3px solid;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+/* About me Section */
+#about {
+    padding: 30px;
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the background image */
+    text-align: center;
+}
+
+#about h1 {
+    margin-top: 0;
+    font-size: 40px;
+}
+#about p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
